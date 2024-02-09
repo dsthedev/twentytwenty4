@@ -1,0 +1,22 @@
+{
+    "key": "ui_options_page_65c5bc43df534",
+    "title": "Twenty4",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Twenty4",
+    "menu_slug": "twenty4",
+    "parent_slug": "none",
+    "advanced_configuration": 1,
+    "icon_url": "dashicons-editor-code",
+    "menu_title": "Twenty4",
+    "position": 99,
+    "redirect": 0,
+    "description": "Configure options for the Twenty Twenty 4 theme.",
+    "update_button": "Update",
+    "updated_message": "Options Updated",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1707457687
+}

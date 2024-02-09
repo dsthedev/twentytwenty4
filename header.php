@@ -43,17 +43,27 @@ if (is_front_page()) {
 
 <body <?php body_class($body_classes); ?>>
 
-  <!-- Wrapper -->
-  <div id="wrapper">
-
-    <!-- Main -->
-    <main id="main-container">
-      <div class="inner">
-        <?php get_template_part('lib/editorial/generic/browserupgrade'); ?>
-
-        <!-- Header -->
-        <header id="header">
-          <?php get_template_part('lib/nfawc/navbar'); ?>
-        </header>
-        
-        <div class="container">
+  <header>
+    <nav class="top-bar topbar-responsive">
+      <div class="row">
+        <div class="top-bar-title">
+          <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+          </span>
+          <a class="topbar-responsive-logo" href="<?php echo home_url(); ?>"><strong><?php echo bloginfo('name'); ?></strong></a>
+        </div>
+        <div id="topbar-responsive" class="topbar-responsive-links">
+          <div class="top-bar-right">
+            <ul class="menu simple vertical medium-horizontal">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                <button type="button" class="button nothollow topbar-responsive-button">Hello</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
